@@ -1,6 +1,9 @@
 module.exports = {
     install: () => {
         console.log('Installing OBS');
+        setTimeout(() => {
+            return 'OBS installed';
+        }, 1000);
     },
     uninstall: () => {
         console.log('Uninstalling OBS');
