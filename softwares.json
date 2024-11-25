@@ -1,6 +1,6 @@
 [
     {
-        "id": "obs-studio",
+        "id": "obs",
         "name": "OBS Studio",
         "author": "obsproject",
         "type": "github",
