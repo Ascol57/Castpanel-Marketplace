@@ -1,9 +1,10 @@
 [
     {
-      "title": "OBS-Studio",
-      "author": "obsproject",
-      "type": "github",
-      "repository": "obsproject/obs-studio"
+        "title": "OBS-Studio",
+        "author": "obsproject",
+        "type": "github",
+        "repository": "obsproject/obs-studio",
+        "image": "https://obsproject.com/assets/images/new_icon_small-r.png",
+        "description": "Free and open source software for video recording and live streaming."
     }
-  ]
-  
+]
