@@ -6,7 +6,8 @@
         "type": "github",
         "repository": "obsproject/obs-studio",
         "image": "https://obsproject.com/assets/images/new_icon_small-r.png",
-        "description": "Free and open source software for<br>video recording and live streaming."
+        "description": "Free and open source software for<br>video recording and live streaming.",
+        "readme": "https://raw.githubusercontent.com/obsproject/obs-studio/refs/heads/master/README.rst"
     },
     {
         "id": "castmate",
@@ -15,6 +16,7 @@
         "type": "github",
         "repository": "LordTocs/CastMate",
         "image": "https://www.castmate.io/og-image.png",
-        "description": "The All-in-One Streamer Toolkit"
+        "description": "The All-in-One Streamer Toolkit",
+        "readme": "https://raw.githubusercontent.com/LordTocs/CastMate/refs/heads/main/README.md"
     }
 ]
