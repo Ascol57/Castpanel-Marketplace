@@ -1,5 +1,5 @@
 module.exports = {
-    install: () => {
+    install: async () => {
         console.log('Installing Castmate');
         setTimeout(() => {
             return 'Castmate installed';

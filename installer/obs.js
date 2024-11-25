@@ -1,5 +1,5 @@
 module.exports = {
-    install: () => {
+    install: async () => {
         console.log('Installing OBS');
         setTimeout(() => {
             return 'OBS installed';
