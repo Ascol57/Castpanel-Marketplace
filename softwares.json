@@ -1,6 +1,7 @@
 [
     {
-        "title": "OBS Studio",
+        "id": "obs-studio",
+        "name": "OBS Studio",
         "author": "obsproject",
         "type": "github",
         "repository": "obsproject/obs-studio",
@@ -8,7 +9,8 @@
         "description": "Free and open source software for video recording and live streaming."
     },
     {
-        "title": "CastMate",
+        "id": "castmate",
+        "name": "CastMate",
         "author": "LordTocs",
         "type": "github",
         "repository": "LordTocs/CastMate",
