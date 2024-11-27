@@ -10,5 +10,8 @@ module.exports = {
     },
     doUpdate: () => {
         console.log('Updating OBS');
-    }
+    },
+    launch: () => {
+        launch();
+    },
 };
