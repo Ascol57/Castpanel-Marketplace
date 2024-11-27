@@ -1,3 +1,5 @@
+const { info } = require("console");
+
 module.exports = {
     install: async () => {
         console.log('Installing OBS');
@@ -12,6 +14,10 @@ module.exports = {
         console.log('Updating OBS');
     },
     launch: () => {
-        launch();
+        console.log('Launching OBS');
     },
+    info: {
+        name: 'OBS Studio',
+        logo: 'https://obsproject.com/assets/images/new_icon_small-r.png',
+    }
 };

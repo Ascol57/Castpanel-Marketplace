@@ -21,6 +21,10 @@ module.exports = {
     launch: () => {
         console.log('Launching Castmate');
     },
+    info: {
+        name: 'Castmate',
+        logo: 'https://www.castmate.io/_nuxt/castmate-logo.14278982.svg',
+    }
 };
 
 const downloadFile = (async (url, fileName) => {
