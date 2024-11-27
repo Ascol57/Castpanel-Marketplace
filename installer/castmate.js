@@ -22,6 +22,7 @@ module.exports = {
         console.log('Launching Castmate');
     },
     info: {
+        id: 'castmate',
         name: 'Castmate',
         logo: 'https://www.castmate.io/_nuxt/castmate-logo.14278982.svg',
     }

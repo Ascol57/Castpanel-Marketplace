@@ -17,6 +17,7 @@ module.exports = {
         console.log('Launching OBS');
     },
     info: {
+        id: 'obs',
         name: 'OBS Studio',
         logo: 'https://obsproject.com/assets/images/new_icon_small-r.png',
     }
