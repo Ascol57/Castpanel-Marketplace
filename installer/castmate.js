@@ -3,6 +3,7 @@ const { mkdir } = require("fs/promises");
 const { Readable } = require('stream');
 const { finished } = require('stream/promises');
 const path = require("path");
+const { exec } = require("child_process");
 
 module.exports = {
     install: async () => {
@@ -20,6 +21,7 @@ module.exports = {
     },
     launch: () => {
         console.log('Launching Castmate');
+        exec(path.join(__dirname, "CastMate/Castmate.exe"));
     },
     info: {
         id: 'castmate',
