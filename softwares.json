@@ -18,5 +18,13 @@
         "image": "https://www.castmate.io/og-image.png",
         "description": "The All-in-One Streamer Toolkit",
         "readme": "https://raw.githubusercontent.com/LordTocs/CastMate/refs/heads/main/README.md"
+    },
+    {
+        "id": "obs-plugin-market",
+        "name": "OBS Plugin Market",
+        "author": "Ascol57",
+        "image": "https://obsproject.com/assets/images/new_icon_small-r.png",
+        "description": "A marketplace for OBS Studio plugins",
+        "readme": "https://raw.githubusercontent.com/Ascol57/obs-plugin-market/refs/heads/README.md"
     }
 ]
