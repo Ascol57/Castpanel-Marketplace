@@ -1,10 +1,14 @@
+const fs = require('fs');
+const path = require('path');
+
 module.exports = {
     install: async () => {
         console.log('Installing OBS Plugin Market');
         try {
-            downloadFile();
+            await downloadFile("https://raw.githubusercontent.com/Ascol57/Castpanel-Marketplace/refs/heads/main/data/obs-plugin-market/market.js", path.join(__dirname, "../Shops/obs-plugin.js"));
+            return true;
         } catch (error) {
-            
+            return false;
         }
     },
     uninstall: () => {
