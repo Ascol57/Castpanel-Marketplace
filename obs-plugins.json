@@ -1,8 +1,62 @@
 [
   {
-    "title": "Move transition",
+    "id": "move-transition",
+    "name": "Move transition",
     "author": "exeldro",
     "type": "github",
-    "repository": "exeldro/obs-move-transition"
+    "repository": "exeldro/obs-move-transition",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "Move sources to a new position during scene transition",
+    "readme": "https://raw.githubusercontent.com/exeldro/obs-move-transition/refs/heads/master/README.md"
+  },
+  {
+    "id": "obs-websocket",
+    "name": "OBS Websocket",
+    "author": "Palakis",
+    "type": "github",
+    "repository": "Palakis/obs-websocket",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "Remote-control OBS Studio from WebSockets",
+    "readme": "https://raw.githubusercontent.com/Palakis/obs-websocket/refs/heads/README.md"
+  },
+  {
+    "id": "obs-virtualcam",
+    "name": "OBS Virtualcam",
+    "author": "CatxFish",
+    "type": "github",
+    "repository": "CatxFish/obs-virtual-cam",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "OBS Virtualcam plugin for OBS Studio provides a directshow output as a virtual webcam",
+    "readme": "https://raw.githubusercontent.com/CatxFish/obs-virtual-cam/refs/heads/README.md"
+  },
+  {
+    "id": "obs-ndi",
+    "name": "OBS NDI",
+    "author": "Palakis",
+    "type": "github",
+    "repository": "Palakis/obs-ndi",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "NewTek NDI integration for OBS Studio",
+    "readme": "https://raw.githubusercontent.com/Palakis/obs-ndi/refs/heads/README.md"
+  },
+  {
+    "id": "obs-linuxbrowser",
+    "name": "OBS Linux Browser",
+    "author": "fdv",
+    "type": "github",
+    "repository": "fdv/obs-linuxbrowser",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "Browser source plugin for obs-studio based on CEF.",
+    "readme": "https://raw.githubusercontent.com/fdv/obs-linuxbrowser/refs/heads/README.md"
+  },
+  {
+    "id": "obs-advanced-scene-switcher",
+    "name": "OBS Advanced Scene Switcher",
+    "author": "Jim",
+    "type": "github",
+    "repository": "JimTheThird/obs-scene-switcher",
+    "image": "https://obsproject.com/forum/data/resource_icons/0/913.jpg?1585731355",
+    "description": "Advanced Scene Switcher plugin for OBS Studio",
+    "readme": "https://raw.githubusercontent.com/JimTheThird/obs-scene-switcher/refs/heads/README.md"
   }
 ]

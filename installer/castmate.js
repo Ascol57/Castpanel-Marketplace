@@ -8,10 +8,14 @@ const { exec } = require("child_process");
 module.exports = {
     install: async () => {
         console.log('Installing Castmate');
-        fs.mkdirSync(path.join(__dirname, "CastMate"));
-        await downloadFile("https://github.com/LordTocs/CastMate/releases/download/v0.5.3/CastMate_0.5.3-portable.exe", path.join(__dirname, "CastMate/Castmate.exe"))
-        console.log('Castmate installed');
-        return 'Castmate installed';
+        try {
+            fs.mkdirSync(path.join(__dirname, "CastMate"));
+            await downloadFile("https://github.com/LordTocs/CastMate/releases/download/v0.5.3/CastMate_0.5.3-portable.exe", path.join(__dirname, "CastMate/Castmate.exe"))
+            return true;
+        } catch (error) {
+            console.log(error);
+            return false;
+        }
     },
     uninstall: () => {
         console.log('Uninstalling Castmate');
@@ -27,6 +31,7 @@ module.exports = {
         id: 'castmate',
         name: 'Castmate',
         logo: 'https://www.castmate.io/_nuxt/castmate-logo.14278982.svg',
+        showLaunchShortcut: true
     }
 };
 
